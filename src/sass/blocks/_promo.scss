@@ -1,0 +1,27 @@
+.promo {
+    min-height: 700px;
+    background: url(/img/main_bg2.png) center (center/cover) no-repeat;
+}
+
+.promo {
+    &__descr {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding-top: 137px;
+        width: 864px;
+        height: 226px;
+    }
+    &__subtitle {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #fff;
+    }
+    &__wrap {
+        position: absolute;
+        width: 100%;
+        min-height: 700px;
+        background: rgba(0,0,0,0.5);
+    }
+}

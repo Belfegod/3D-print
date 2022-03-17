@@ -1,0 +1,43 @@
+.arenda {
+    padding-top: 60px;
+    min-height: 647px;
+    &__wrap {
+        display: flex;
+        height: 307px;
+        margin-top: 64px;
+    }
+    &__descr {
+        width: 660px;
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    &__descr2 {
+        margin-top: 30px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    &__subtitle {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.arenda__title__wrap {
+    width: 988px;
+    height: 118px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.descr_wrap {
+    width: 708px;
+    height: 223px;
+    margin-top: 41px;
+    margin-left: 32px;
+}
+
