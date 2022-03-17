@@ -1,0 +1,28 @@
+.use {
+    min-height: 741px;
+    padding: 100px 0;
+    background: url(/img/bg_section.png);
+    &__subtitle {
+        font-weight: 500;
+    }
+    &__wrap {
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 494px 764px;
+        column-gap: 44px;
+    }
+    &__descr {
+        background: url(/img/text_bg.png) center (center/cover) no-repeat;
+    }
+    &__descr1 {
+        font-weight: 500;
+    }
+    &__descr2 {
+        margin-top: 50px;
+    }
+}
+
+.swiper {
+    height: 363px;
+    width: 494px;
+}

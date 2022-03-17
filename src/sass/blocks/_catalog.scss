@@ -1,0 +1,24 @@
+.catalog {
+    min-height: 322px;
+    background: url(/img/bg_section1.png) center (center/cover) no-repeat;
+    &__wrap {
+        display: grid;
+        grid-template-columns: 243px 254px 244px 232px;
+        column-gap: 70px;
+        justify-content: space-around;
+        &__item {
+            img {
+                width: 71px;
+                height: 71px;
+            }
+            div {
+                margin-top: 21px;
+                text-align: center;
+                color: white;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;
+            }
+        }
+    }
+}
