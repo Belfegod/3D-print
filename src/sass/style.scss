@@ -1,5 +1,4 @@
 @import 'libs/font';
-@import 'libs/swiper-bundle.min';
 @import 'base/variables';
 
 html {
@@ -7,29 +6,13 @@ html {
 }
 
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-body {
-    margin: 0;
-}
+
 .container {
     position: relative;
     max-width: 1290px;
     margin: 0 auto;
 }
 
-@import 'blocks/navbar';
-@import 'blocks/menuHiden';
-@import 'blocks/promo';
-@import 'blocks/title';
-@import 'blocks/buttons';
-@import 'blocks/arenda';
-@import 'blocks/carousel';
-@import 'blocks/advantage';
-@import 'blocks/catalog';
-@import 'blocks/contacts';
-@import 'blocks/consultation';
-@import 'blocks/forms';
-@import 'blocks/footer';
-@import 'base/media';
