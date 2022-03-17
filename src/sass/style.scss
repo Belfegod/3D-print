@@ -1,3 +1,4 @@
+@import 'libs/bootstrap-reboot.min';
 @import 'libs/font';
 @import 'base/variables';
 
@@ -9,10 +10,13 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-
 .container {
     position: relative;
-    max-width: 1290px;
+    max-width: 1310px;
     margin: 0 auto;
 }
 
+@import 'blocks/navbar';
+@import 'blocks/button';
+@import 'blocks/title';
+@import 'blocks/promo'
