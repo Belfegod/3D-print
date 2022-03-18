@@ -2,7 +2,12 @@
     min-height: 741px;
     padding: 100px 0;
     background: url(/img/bg_section.png);
+    &__title {
+        text-align: center;
+    }
     &__subtitle {
+        margin-top: 20px;
+        text-align: center;
         font-weight: 500;
     }
     &__wrap {
@@ -12,13 +17,20 @@
         column-gap: 44px;
     }
     &__descr {
+        padding: 22px 11px 11px 11px;
         background: url(/img/text_bg.png) center (center/cover) no-repeat;
     }
     &__descr1 {
         font-weight: 500;
+        div {
+            margin-bottom: 10px;
+        }
     }
     &__descr2 {
         margin-top: 50px;
+        div {
+            margin-bottom: 10px;
+        }
     }
 }
 

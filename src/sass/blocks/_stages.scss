@@ -1,0 +1,20 @@
+.stages {
+    min-height: 363px;
+    background: black;
+    padding: 47px 0;
+    &__title {
+        text-align: center;
+    }
+    &__wrap {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 261px 294px 273px 256px;
+        grid-template-rows: 162px;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

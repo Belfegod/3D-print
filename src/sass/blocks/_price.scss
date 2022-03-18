@@ -1,0 +1,26 @@
+.price {
+    background: black;
+    min-height: 538px;
+    padding: 100px 0 103px 0;
+    &__title {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    &__subtitle {
+        text-align: center;
+        margin: 0 92px;
+        margin-bottom: 91px;
+        div {
+            margin: 0 89px;
+        }
+    }
+    &__btn {
+        margin: 0 auto;
+        display: block;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        width: 439px;
+        height: 78px;
+    }
+}

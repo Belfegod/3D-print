@@ -5,6 +5,9 @@
     line-height: 21px;
     background: none;
     border: 1px solid $main-color;
+    &:hover {
+        background: $main-color;
+    }
 }
 
 .navbar__btn {

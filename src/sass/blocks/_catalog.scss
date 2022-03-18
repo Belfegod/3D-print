@@ -1,5 +1,6 @@
 .catalog {
     min-height: 322px;
+    padding: 83px 0;
     background: url(/img/bg_section1.png) center (center/cover) no-repeat;
     &__wrap {
         display: grid;
@@ -7,6 +8,9 @@
         column-gap: 70px;
         justify-content: space-around;
         &__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             img {
                 width: 71px;
                 height: 71px;

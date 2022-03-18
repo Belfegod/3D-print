@@ -1,0 +1,44 @@
+.foot {
+    min-height: 300px;
+    background: black;
+    padding: 94px 0;
+    &__link {
+        &:hover {
+            color: white;
+            text-decoration: none;
+        }
+    }
+    &__wrap {
+        display: flex;
+        height: 111px;
+        align-items: center;
+    }
+    &__soc {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin-left: 118px;
+        img {
+            width: 41px;
+            height: 41px;
+        }
+    }
+    &__menu {
+        display: flex;
+        margin: auto 0;
+        width: 440px;
+        margin-left: 215px;
+        justify-content: space-between;
+        padding: 0;
+    }
+    &__contact {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 35px;
+    }
+    &__item {
+        list-style-type: none;
+    }
+}

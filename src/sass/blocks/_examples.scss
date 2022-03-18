@@ -1,0 +1,13 @@
+.examples {
+    background: black;
+    min-height: 656px;
+    padding: 100px 0;
+    &__swiper {
+        margin-top: 100px;
+        width: 1227px;
+        height: 300px;
+    }
+    &__title {
+        text-align: center;
+    }
+}
