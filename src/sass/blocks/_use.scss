@@ -17,6 +17,9 @@
         column-gap: 44px;
     }
     &__descr {
+        border-top: 5px solid $main-color;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
         padding: 22px 11px 11px 11px;
         background: url(/img/text_bg.png) center (center/cover) no-repeat;
     }
@@ -35,6 +38,16 @@
 }
 
 .swiper {
-    height: 363px;
+    height: 390px;
     width: 494px;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    &:after {
+        content: none;
+    }
 }

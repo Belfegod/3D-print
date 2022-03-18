@@ -15,3 +15,14 @@
     width: 147px;
     height: 38px;
 }
+
+.button_submit {
+    width: 386px;
+    height: 61px;
+    border: 1px solid $main-color;
+    font-weight: 500;
+    background: none;
+    &:hover {
+        background: $main-color;
+    }
+}
